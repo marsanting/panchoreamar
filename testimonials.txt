@@ -1,0 +1,23 @@
+import TestimonialsSection from "@/components/ui/testimonials-3";
+
+export default function Default() {
+  return (
+    <section className="flex min-h-screen w-full items-center justify-center bg-background px-6 py-24 text-foreground">
+      <div className="w-full">
+        <div className="mx-auto mb-20 max-w-xl text-center">
+          <p className="font-medium text-muted-foreground text-sm uppercase tracking-widest">
+            Testimonials
+          </p>
+          <h2 className="mt-3 text-balance font-semibold text-3xl tracking-tight sm:text-4xl">
+            Loved by builders everywhere
+          </h2>
+          <p className="mt-4 text-muted-foreground">
+            Don't take our word for it — here's what industry leaders have to
+            say.
+          </p>
+        </div>
+        <TestimonialsSection />
+      </div>
+    </section>
+  );
+}
